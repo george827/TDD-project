@@ -20,5 +20,18 @@ class Solver
 
     string.reverse
   end
+
+  def self.factorial(num)
+    # error if not a number
+    raise ArgumentError, 'Input is not an integer' unless num.integer?
+    # error if negative
+    raise ArgumentError, 'Input is negative' if num.negative?
+
+    if num.zero?
+      1
+    else
+      num * factorial(num - 1)
+    end
+  end
   
 end
