@@ -1,4 +1,4 @@
-#create unit test for a factorial method in a class Solver
+# create unit test for a factorial method in a class Solver
 
 require 'rspec'
 require './solver'
@@ -38,35 +38,35 @@ describe Solver do
     end
 
     it 'should return 40320 when given 8' do
-      expect(Solver.factorial(8)).to eq(40320)
+      expect(Solver.factorial(8)).to eq(40_320)
     end
 
     it 'should return 362880 when given 9' do
-      expect(Solver.factorial(9)).to eq(362880)
+      expect(Solver.factorial(9)).to eq(362_880)
     end
 
     it 'should return 3628800 when given 10' do
-      expect(Solver.factorial(10)).to eq(3628800)
+      expect(Solver.factorial(10)).to eq(3_628_800)
     end
 
     it 'should return 39916800 when given 11' do
-      expect(Solver.factorial(11)).to eq(39916800)
+      expect(Solver.factorial(11)).to eq(39_916_800)
     end
 
     it 'should return 479001600 when given 12' do
-      expect(Solver.factorial(12)).to eq(479001600)
+      expect(Solver.factorial(12)).to eq(479_001_600)
     end
 
     it 'should return 6227020800 when given 13' do
-      expect(Solver.factorial(13)).to eq(6227020800)
+      expect(Solver.factorial(13)).to eq(6_227_020_800)
     end
 
     it 'should return 87178291200 when given 14' do
-      expect(Solver.factorial(14)).to eq(87178291200)
+      expect(Solver.factorial(14)).to eq(87_178_291_200)
     end
-  end 
+  end
 
-  #throw an error when input is not a number
+  # throw an error when input is not a number
   context 'should throw an error when input is not a number' do
     it 'should throw an error when given a string' do
       expect { Solver.factorial('a') }.to raise_error(ArgumentError)
@@ -83,5 +83,5 @@ describe Solver do
     it 'should throw an error when given a nil' do
       expect { Solver.factorial(nil) }.to raise_error(ArgumentError)
     end
-  end 
+  end
 end
