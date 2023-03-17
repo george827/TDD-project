@@ -29,40 +29,18 @@ describe Solver do
       expect(Solver.fizzbuzz(30)).to eq('FizzBuzz')
     end
 
-    it 'should return "Fizz" when given 9' do
-      expect(Solver.fizzbuzz(9)).to eq('Fizz')
-    end
-
-    it 'should return "Buzz" when given 20' do
-      expect(Solver.fizzbuzz(20)).to eq('Buzz')
-    end
-
-    it 'should return "FizzBuzz" when given 45' do
-      expect(Solver.fizzbuzz(45)).to eq('FizzBuzz')
-    end
-
     it 'should return "Fizz" when given 12' do
       expect(Solver.fizzbuzz(12)).to eq('Fizz')
-    end
-
-    it 'should return "Buzz" when given 25' do
-      expect(Solver.fizzbuzz(25)).to eq('Buzz')
     end
 
     it 'should return "FizzBuzz" when given 60' do
       expect(Solver.fizzbuzz(60)).to eq('FizzBuzz')
     end
+  end
 
-    it 'should return "Fizz" when given 18' do
-      expect(Solver.fizzbuzz(18)).to eq('Fizz')
-    end
-
-    it 'should return "Buzz" when given 35' do
-      expect(Solver.fizzbuzz(35)).to eq('Buzz')
-    end
-
-    it 'should return "FizzBuzz" when given 75' do
-      expect(Solver.fizzbuzz(75)).to eq('FizzBuzz')
+  context ' should return a string if input is not devisible by 3 and 5' do
+    it 'Should return "7" when input is 7' do
+      expect(Solver.fizzbuzz(7)).to eq('7')
     end
   end
 

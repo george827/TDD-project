@@ -12,50 +12,6 @@ describe Solver do
     it 'should return "dlrow olleh" when given "hello world"' do
       expect(Solver.reverse('hello world')).to eq('dlrow olleh')
     end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
-
-    it 'should return "dlrow olleh" when given "hello world"' do
-      expect(Solver.reverse('hello world')).to eq('dlrow olleh')
-    end
   end
 
   # throw error if input is not a string
