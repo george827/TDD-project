@@ -1,7 +1,7 @@
 #unit tests for method reverse that returns a string in reverse in class Solver
 
 require 'rspec'
-require_relative '../lib/solver'
+require './solver'
 
 describe Solver do
   context 'should return the reverse string when input is string' do
@@ -55,7 +55,6 @@ describe Solver do
 
     it 'should return "dlrow olleh" when given "hello world"' do
         expect(Solver.reverse("hello world")).to eq("dlrow olleh")
-        end 
     end
   end
 

@@ -1,7 +1,7 @@
 #write unit tests for method fizzbuzz in class Solver
 
 require 'rspec'
-require_relative '../lib/solver'
+require './solver'
 
 describe Solver do
   context 'should return the correct value when input is number' do

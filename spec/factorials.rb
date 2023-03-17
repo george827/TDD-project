@@ -1,7 +1,7 @@
 #create unit test for a factorial method in a class Solver
 
 require 'rspec'
-require_relative '../lib/solver'
+require './solver'
 
 describe Solver do
   context 'should return the factorial when input is number' do
