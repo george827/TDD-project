@@ -33,5 +33,4 @@ class Solver
       num * factorial(num - 1)
     end
   end
-  
 end
