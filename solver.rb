@@ -14,5 +14,11 @@ class Solver
       'Input must be a number'
     end
   end
+
+  def self.reverse(string)
+    raise ArgumentError, 'Input is not a string' unless string.is_a? String
+
+    string.reverse
+  end
   
 end
